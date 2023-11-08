@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 'PT Sans'
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Serif';
+}
+
+body{
+    background: url(./images/background.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center -1em;
+
+}
+
+.aims, .sponsors-partners{
+    background-color: #fff;
+}
+
+.end, footer{
+    background-color: #171720;
+}
+
+.content{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* nav */
+
+.nav{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 2em 2em;
+}
+
+.nav img{
+    display: block;
+    height: 65px;
+    width: 90px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 1.5em;
+}
+
+.nav li{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*head*/
+
+.head{
+    color: white;
+    padding: 1em 0 14em 1em;
+}
+.head h1{
+    font-size: 3em;
+}
+
+.head p{
+    max-width: 58ch;
+    font-size: 1.1em;
+    padding-top: 1em;
+}
+
+/*aims*/
+
+.aims .content{
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+    padding: 7em 0 7em 0
+}
+
+.aims h3{
+    font-size: 3em;
+}
+
+.aims p {
+    padding: 1em 0 ;
+    color: #484848;
+    max-width: 80ch;
+    height: 130px;
+}
+
+.aims a {
+    text-decoration: none;
+    color: #b0825c;
+    padding: 0.4em 1em;
+    border: 2.25px solid #b0825c;
+}
+
+.line{
+    display: block;
+    width: 100%;
+    background: #c9c9c9;
+    height: 1px;
+
+}
+
+/* sponsors-partners */
+
+
+.sponsors-partners{
+    padding: 3em 0 4em 0;
+    display: flex;
+    text-align: center;
+}
+
+.sponsors-partners h2{
+    color: #b0825c;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.sponsors-partners p{
+    color: #484848;
+    margin: 0 auto;
+    max-width: 130ch;
+}
+
+.sponsors-partners .images{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding:4em 0;
+}
+
+.sponsors-partners img{
+    display: block;
+    height: auto;
+    width: 135px;
+    background-color: #dddddd;
+    padding: 1.4em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+/*end*/
+
+.end .content{
+    display: flex;
+    gap: 3em;
+    padding: 3em 0 4em 0;
+}
+
+.end section{
+    flex: 1 1 20%
+}
+
+.end h3{
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 1.2em;
+}
+
+.end li{
+    color:#a89e97;
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    font-size: 0.8em;
+}
+
+
+
+/*footer*/
+.line-end{
+    display: block;
+    width: 100%;
+    background: #4b4845f3;
+    height: 1px;
+}
+footer{
+    color: #a89e97;
+    padding: 1em 0;
+}
