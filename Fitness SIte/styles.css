@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans%7CPT+Serif");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    background: url(./image/fitness-main.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center -150px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar,.footer{
+    background-color: #d01919;
+}
+
+.first-main{
+    background-color: white;
+}
+
+.second-main{
+   background-color: #efefef;
+}
+
+/* top bar */
+
+.top-bar .container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0.5em 0;
+}
+.top-bar
+
+.social ul{
+    display: flex;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.social ul li,
+.social ul a{
+    display: block;
+    color: white;
+}
+
+/* nav */
+
+.nav ul{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.nav li{
+    display: block;
+
+}
+
+/* hero */
+
+.hero{
+    text-align: center;
+    padding: 10em 0 16em 0;
+    color: white;
+}
+
+.hero h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 0.2em;
+}
+
+.hero p{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.hero a{
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #d01919;
+    padding: 3px 8px;
+    border-radius: 7px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+/* main */
+
+.section {
+    display: flex;
+    color: black;
+    gap: 10em;
+    padding-bottom: 2em;
+}
+h2{
+    text-align: center;
+    font-size: 33px;
+    padding: 1em 0 0.5em 0;
+}
+
+.section section{
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.5em;
+}
+
+.first-main img{
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.first-main h3,
+.second-main h4{
+    color: #d01919;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.red-line{
+    display: block;
+    width: 35px;
+    background: #d01919;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 1.6em;
+}
+
