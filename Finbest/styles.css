@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/ 1.5 'Inter';
+}
+
+body {
+    background-color: white;
+}
+
+body > * {
+    display: flex;
+    margin: 0 auto;
+}
+
+.head,
+.hero-background {
+    background-color: #ade2df;
+}
+
+.fees,
+.empty {
+    background-color: #f3f5fa;
+}
+
+/* nav */
+
+.nav {
+    justify-content: space-between;
+    max-width: 85%;
+    padding: 3em 0;
+}
+
+.nav ul{
+    display: flex;
+    gap: 2.5em;
+}
+.nav ul li{
+    display: block;
+}
+
+.user a{
+    text-decoration:none ;
+    padding: 0.8em 1.6em;
+    color: black;
+}
+
+.user a:last-child {
+    background-color:#ade2df;
+    border-radius: 8px;
+}
+
+/* head and head bottom*/
+
+.head{
+    flex-direction: column;
+    text-align: center;
+    padding: 6em 0;
+}
+
+.head h1{
+    font-size: 3.6em;
+    font-weight: 500;
+}
+
+.head p {
+    padding: 1.3em
+}
+
+.download{
+    display: flex;
+    gap: 1em;
+    margin: 0 auto;
+}
+ .download a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 0.8em 1.5em;
+    border-radius: 6px;
+ }
+
+ .bottom h1{
+    max-width: 15ch;
+    margin: 0 auto;
+    margin-bottom: -0.4em;
+    font-size: 3.5em;
+ }
+ .bottom p{
+    font-size: 1.1em;
+    max-width: 53ch;
+    margin: 0 auto;
+
+}
+
+/* stats */
+
+.stats{
+    max-width: 80%;
+    padding:5em;
+    display: flex;
+    gap:1em;
+    justify-content: space-between;
+}
+
+.greyline{
+    display: block;
+    width: 35px;
+    background: #d3d3d3;
+    height: 180px;
+    width: 1px;
+    /* margin: 0 auto; */
+    /* margin-bottom: 1.6em; */
+}
+
+.stats section{
+    text-align: center;
+}
+
+.stats h2{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.stats p{
+    padding-top: 1.5em;
+    max-width: 35ch;
+}
+
+/* hero */
+
+.hero{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 7em;
+}
+
+.hero img{
+    border: 3px dotted rgb(171, 171, 171);
+    height: 40em;
+    border-width: 0.2em;
+    padding: 4em;
+}
+
+.hero .info{
+    padding-top: 7em;
+}
+
+.hero .info h2{
+    font-size: 2.7em;
+    font-weight: 500;
+    max-width: 22ch;
+    padding-bottom: 0.5em;
+}
+
+.hero .info h4{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.hero .info p{
+    font-size: 1.1em;
+    padding-bottom: 1em;
+    max-width: 60ch;
+}
+
+.hero .info a {
+    display: block;
+    padding-top: 1em;
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+}
+
+.underline{
+    display: block;
+    background: rgb(69, 69, 69);
+    height: 0.8px;
+    width: 155px;
+}
+
+/* fees and empty */
+
+.fees{
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 0 5em 0;
+}
+
+.empty{
+    padding: 2em
+}
+
+.fees a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ade2df;
+    color: black;
+    padding: 0.4em 0.7em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+.fees h3{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+/* plans */
+
+.plans{
+    display: flex;
+    border-radius: 4px;
+}
+
+.all-offers{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    gap: 4em;
+    flex: 1 1 60%
+}
+
+
+
+.offers{
+    flex: 1 1 30%;
+
+}
+
+.plans li{
+    display: block;
+    padding-bottom: 0.8em;
+}
+
+.line-high{
+    display: block;
+    background: rgb(200, 200, 200);
+    height: 400px;
+    width: 1px;
+}
+
+.line{
+    display: block;
+    background: rgb(200, 200, 200);
+    height: 1px;
+    width: 240px;
+    margin-bottom: 2em;
+}
+
+.offers h4{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.tarif{
+    display: flex;
+    gap: 0.7em;
+}
+
+.price{
+    font-size: 3em;
+    font-weight: 500;
+    padding: 0.4em 0;
+}
+
+.month{
+    margin-top: 3.4em;
+    color: rgb(78, 78, 78);
+}
+
+.offers a{
+    display: block;
+    background-color: #ade2df;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+    margin: 2em 0.2em 0 0.2em;
+    border-radius: 5px;
+}
+
+/* expand */
+
+.expand{
+    flex: 3 3 40%;
+    background-color: #ade2df;
+    padding: 2em;
+}
+
+.expand h3{
+    text-align: center; 
+    font-weight: 500;
+}
+.expand h2{
+    font-weight: 400;
+    padding-bottom: 1.5em;
+}
+
+.expand a {
+    display: block;
+    background-color: black;
+    color: #fff;
+    padding: 1.1em 30%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 12em;
+}
+footer{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1.5em 0;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap:1em
+}
+
+footer ul li{
+    display: block;
+}
